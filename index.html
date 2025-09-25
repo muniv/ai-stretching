@@ -24,9 +24,10 @@
   <body class="bg-slate-50">
     <div id="root"></div>
     <!-- 
-      The entry point is now index.jsx, which GitHub Pages serves with the correct MIME type.
-      Babel will transpile this file and all its dependencies.
+      The entry point is index.tsx.
+      Babel is configured with presets to transpile both React (JSX) and TypeScript.
+      This resolves all previous conflicts and errors.
     -->
-    <script type="text/babel" src="./index.jsx"></script>
+    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
 </html>
