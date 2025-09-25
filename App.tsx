@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { AppStatus, type Prediction, type Stretch } from './types';
-import { MODEL_URL, STRETCHES, PREDICTION_THRESHOLD } from './constants';
-import { ActionButton } from './components/ActionButton';
-import { ProgressBar } from './components/ProgressBar';
+import { AppStatus, type Prediction, type Stretch } from './types.ts';
+import { MODEL_URL, STRETCHES, PREDICTION_THRESHOLD } from './constants.tsx';
+import { ActionButton } from './components/ActionButton.tsx';
+import { ProgressBar } from './components/ProgressBar.tsx';
 
 // Declare Teachable Machine's global object
 declare const tmImage: any;
