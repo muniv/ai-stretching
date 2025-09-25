@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <!-- Babel Standalone for in-browser JSX/TS transpilation -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.1.1",
@@ -28,8 +28,8 @@
     <div id="root"></div>
     <!-- 
       The type is "text/babel" so Babel can transpile it.
-      We removed the conflicting "importmap" and the "data-type=module" attribute
-      to ensure the transpiled code uses the globally available React and ReactDOM objects.
+      We have removed the conflicting "importmap" to ensure the transpiled code
+      uses the globally available React and ReactDOM objects loaded above.
     -->
     <script type="text/babel" src="./index.tsx"></script>
   </body>
