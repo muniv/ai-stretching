@@ -1,0 +1,7 @@
+{
+  "name": "AI 스트레칭 코치",
+  "description": "업무 중 잠시 짬을 내어 AI 코치와 함께 스트레칭을 해보세요. 웹캠을 통해 자세를 인식하고 올바른 스트레칭을 안내합니다.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
